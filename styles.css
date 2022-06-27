@@ -4,7 +4,7 @@ html {
 
 .main-photo{
     max-width: 500px;
-   
+   min-width:300px;
     float: right;
     margin: 10px 100px 20px 100px;
     text-align: left; 
@@ -41,6 +41,7 @@ header {
     display: flex;
     justify-content: space-around;
     box-shadow: 3px 5px 5px rgb(0,0,0,0.4);
+    min-width:500px;
 }
 h3 {
     padding: 1em;
@@ -137,6 +138,8 @@ a{
     margin: 30px 100px 30px 70px;
     background-color: #24252b;
     border-radius: 20px;
+    width: 90%;
+    height: 40%;
 }
 
 .summary h1{
